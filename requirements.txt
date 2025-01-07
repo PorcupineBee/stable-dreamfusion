@@ -1,7 +1,7 @@
 tqdm
 rich
 ninja
-numpy >= 2
+numpy
 pandas
 scipy
 scikit-learn
@@ -31,7 +31,7 @@ transformers
 # for dmtet and mesh export
 xatlas
 trimesh
-PyMCubes
+PyMCubes==0.1.2
 pymeshlab
 git+https://github.com/NVlabs/nvdiffrast/
 
