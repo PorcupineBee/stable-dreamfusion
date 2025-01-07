@@ -30,11 +30,13 @@ WORKDIR /app
 RUN cd /app
 RUN git clone https://github.com/ashawkey/stable-dreamfusion.git
 
+RUN pip3 install networkx==2.8.8
 
 RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 
 WORKDIR /app/stable-dreamfusion
 
+RUN pip3 install numpy=2. PyMCubes
 RUN pip3 install -r requirements.txt
 RUN pip3 install git+https://github.com/NVlabs/nvdiffrast/
 

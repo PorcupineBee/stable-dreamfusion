@@ -1,7 +1,7 @@
 tqdm
 rich
 ninja
-numpy
+numpy=2.1
 pandas
 scipy
 scikit-learn
